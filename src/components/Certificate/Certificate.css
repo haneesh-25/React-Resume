@@ -11,7 +11,6 @@
 }
 .certificate-tile:hover {
   transform: scale(1.02);
-  box-shadow: #5ae921 0px 20px 20px -20px;
 }
 
 .container {

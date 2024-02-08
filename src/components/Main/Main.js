@@ -13,7 +13,6 @@ import About from "../About/About.js";
 import Skills from "../Skills/Skills.js";
 import Certificate from "../Certificate/Certificate.js";
 import Projects from "../Projects/Projects.js";
-import Contact from "../Contact/Contact.js";
 import Follow from "../Follow/Follow.js";
 import Footer from "../Footer/Footer.js";
 import Home from "../Home/Home.js";
@@ -72,17 +71,6 @@ function Main() {
     setToggleMenu(false);
     // `current` points to the mounted text input element
     projectsRef.current.scrollIntoView({
-      behavior: "smooth",
-      block: "nearest",
-      inline: "start",
-    });
-  };
-
-  const contactRef = useRef(null);
-  const scrollToContact = () => {
-    setToggleMenu(false);
-    // `current` points to the mounted text input element
-    contactRef.current.scrollIntoView({
       behavior: "smooth",
       block: "nearest",
       inline: "start",
@@ -158,15 +146,6 @@ function Main() {
                   Projects
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  style={{ color: "white" }}
-                  href="#"
-                  onClick={scrollToContact}
-                >
-                  Contact
-                </NavLink>
-              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
@@ -188,11 +167,8 @@ function Main() {
         <div ref={projectsRef}>
           <Projects details={myProfileDetails} />
         </div>
-        <div ref={contactRef}>
-          <Contact details={myProfileDetails} />
-        </div>
         <Follow details={myProfileDetails} />
-        <Footer details={myProfileDetails} sTC={scrollToContact} />
+        <Footer details={myProfileDetails} />
       </div>
     </div>
   );

@@ -20,42 +20,6 @@ function Projects(props) {
     <section id="projects">
       <div className="container">
         <h2 className="text-center">Projects</h2>
-        <div className="row" style={{ marginTop: "20px" }}>
-          <div className="col-12 col-md-6 lgndetails">
-            <Card
-              body
-              inverse
-              style={{
-                backgroundColor: "rgb(46, 47, 52)",
-                borderColor: "rgb(46, 47, 52)",
-              }}
-            >
-              <CardTitle tag="h5">Login details</CardTitle>
-              <CardText>
-                Username/Email Address: appadmnchk@gmail.com
-                <br />
-                Password: @dmin98765!
-              </CardText>
-            </Card>
-          </div>
-          <div className="col-12 col-md-6 lgndetails">
-            <Card
-              body
-              inverse
-              style={{
-                backgroundColor: "rgb(46, 47, 52)",
-                borderColor: "rgb(46, 47, 52)",
-              }}
-            >
-              <CardTitle tag="h5">Payment details</CardTitle>
-              <CardText>
-                Test Card No: 4111 1111 1111 1111
-                <br />
-                Test Card exp: 09/23
-              </CardText>
-            </Card>
-          </div>
-        </div>
         <div className="row" style={{ marginTop: "30px" }}>
           {myProfileDetails.projects.map((project) => {
             return (

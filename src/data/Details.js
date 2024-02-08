@@ -3,11 +3,11 @@ export const DETAILS = {
   logo: "assets/images/name.svg",
   location: "Hyderabad, Telangana, India",
   resumeLink:
-    "https://drive.google.com/drive/folders/1-8VACahW5TyFVZPTp5F-77Nd7BJyqVOV",
+    "https://drive.google.com/file/d/1um5H6xDV6Kzy7XV1rbu61kanbDVKn28U/view?usp=sharing",
   profile_links: {
     email: {
       link: "haneeshbyreddy@gmail.com",
-      image: "assets/images/outlook.svg",
+      image: "assets/images/gmail.svg",
     },
     github: {
       link: "https://github.com/haneesh-25",
@@ -16,6 +16,10 @@ export const DETAILS = {
     linkedin: {
       link: "https://www.linkedin.com/in/haneeshbyreddy/",
       image: "assets/images/linkedin.svg",
+    },
+    leetcode: {
+      link: "https://leetcode.com/haneeshbyreddy/",
+      image: "assets/images/leetcode.svg",
     },
   },
   profilephoto: "assets/images/profilephoto.jpg",
@@ -34,23 +38,23 @@ export const DETAILS = {
   education: {
     college: {
       name: "ITM University, Gwalior",
-      course: "B.Tech Computer Science",
+      course: "Computer Science Engineering",
       grade: "80%",
       timeline: "2020-2024",
       image: "assets/images/college.jpg",
     },
     higher_secondary_school: {
       name: "Narayana IIT Academy - Raviryala",
-      course: "12th Standard",
-      grade: "91 %",
+      course: "MPC",
+      grade: "91%",
       timeline: "2018-2020",
       image: "assets/images/school.jpg",
     },
     secondary_school: {
-      name: "Indian Matriculation Higher Secondary School, Harur",
-      course: "10th Standard",
-      grade: "88.64 %",
-      timeline: "2003-2002",
+      name: "SPR School of Excellence",
+      course: "8th - 10th Standard",
+      grade: "78%",
+      timeline: "2016-2018",
       image: "assets/images/school2.jpeg",
     },
   },

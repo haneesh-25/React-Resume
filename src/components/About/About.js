@@ -35,7 +35,7 @@ function About(props) {
           >
             <h2>About</h2>
             <br />
-            <h5>{myProfileDetails.about_me.para1}</h5>
+            <p>{myProfileDetails.about_me.para1}</p>
             <p>{myProfileDetails.about_me.para2}</p>
             <p>{myProfileDetails.about_me.para3}</p>
             <p>{myProfileDetails.about_me.para4}</p>
@@ -73,11 +73,14 @@ function About(props) {
                   }}
                 >
                   <b style={{ fontSize: "26px" }}>
-                    Best Outgoing Student Award
+                    Colleage
                   </b>
                   <br />
-                  📌Received Best Outgoing Student Award 2008 of ECE Department
-                  from my college chairman
+                  { myProfileDetails.education.college.name }
+                  <br/>
+                  { myProfileDetails.education.college.course }
+                  <br/>
+                  { myProfileDetails.education.college.timeline }
                 </p>
               </CardContent>
             </Card>
@@ -108,10 +111,15 @@ function About(props) {
                     flexDirection: "column",
                   }}
                 >
-                  <b style={{ fontSize: "30px" }}>Star Trophy</b>
+                  <b style={{ fontSize: "26px" }}>
+                    Intermediate
+                  </b>
                   <br />
-                  📌Received Extra Mile Award and Star Trophy for Outstanding
-                  Achievement.
+                  { myProfileDetails.education.higher_secondary_school.name }
+                  <br/>
+                  { myProfileDetails.education.higher_secondary_school.course }
+                  <br/>
+                  { myProfileDetails.education.higher_secondary_school.timeline }
                 </p>
               </CardContent>
             </Card>
@@ -142,10 +150,15 @@ function About(props) {
                     flexDirection: "column",
                   }}
                 >
-                  <b style={{ fontSize: "30px" }}>Excellence Award</b>
+                  <b style={{ fontSize: "26px" }}>
+                    Secondary School
+                  </b>
                   <br />
-                  📌Got Excellence Award 3 times and also received cash award of
-                  10k for timely project submission
+                  { myProfileDetails.education.secondary_school.name }
+                  <br/>
+                  { myProfileDetails.education.secondary_school.course }
+                  <br/>
+                  { myProfileDetails.education.secondary_school.timeline }
                 </p>
               </CardContent>
             </Card>
