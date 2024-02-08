@@ -73,7 +73,7 @@ function About(props) {
                   }}
                 >
                   <b style={{ fontSize: "26px" }}>
-                    Colleage
+                    College
                   </b>
                   <br />
                   { myProfileDetails.education.college.name }

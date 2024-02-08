@@ -23,17 +23,16 @@ export const DETAILS = {
     },
   },
   profilephoto: "assets/images/profilephoto.jpg",
-  role: ["Software Developer", 2000, "MERN Stack Developer", 2000],
+  role: ["Software Developer", 2000, "MERN Stack Developer", 2000, " DevOps Engineer",2000],
   tag_line:
     "Knack of building applications with front and back end operations.",
   about_me: {
-    para1: "<HelloViewer/> Warm welcome, nice to see you here",
+    para1:
+      "Highly motivated and results-oriented final year Bachelor of Engineering student with a solid foundation in Data Structures and Algorithms (DSA). Possessing strong analytical, problem-solving, and communication skills,",
     para2:
-      "Highly motivated and results-oriented final year Bachelor of Engineering student seeking an entry-level position to leverage strong analytical, problem-solving, and communication skills.",
+      "I am seeking an entry-level position where I can apply my knowledge and learn from experienced professionals. With a keen interest in bridging theoretical concepts with real-world challenges, I am eager to contribute to a dynamic team.",
     para3:
-      "Possess a solid foundation in DSA and a keen interest in applying theoretical knowledge to real-world challenges. ",
-    para4:
-      "Eager to contribute to a dynamic team and learn from experienced professionals.",
+      "Additionally, I bring expertise in Linux environment, networking, and server administration, cultivated through dedicated self-learning and hobbyist exploration. Proficient in DevOps practices and skilled in the MERN (MongoDB, Express.js, React.js, Node.js) stack, I am adept at delivering innovative solutions and driving continuous improvement in complex technical environments.",
   },
   education: {
     college: {

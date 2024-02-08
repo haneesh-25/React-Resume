@@ -18,13 +18,6 @@ section {
   color: white !important;
 }
 
-.imgeffect img {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
 .imgeffect:hover img {
   -webkit-filter: grayscale(0);
   filter: grayscale(0);
