@@ -1,5 +1,5 @@
 export const DETAILS = {
-  name: "Haneesh Reddy",
+  name: "Haneesh Byeddy",
   logo: "assets/images/name.svg",
   location: "Hyderabad, Telangana, India",
   resumeLink:
