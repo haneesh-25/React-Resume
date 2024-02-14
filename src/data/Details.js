@@ -148,16 +148,16 @@ export const DETAILS = {
     {
       id: "1",
       title: "Personal Website",
-      period: "Sep 2021 - Oct 2021",
-      subtitle: "Expense Tracker Application",
-      link: "https://sridharrajaram-moneymanager-client.netlify.app/",
-      FE_ghlink: "https://github.com/sridharrajaram/moneymanager_client.git",
-      BE_ghlink: "https://github.com/sridharrajaram/moneymanager_server.git",
+      period: "Jan 2024 - March 2024",
+      subtitle: "Self hosted using CI/CD",
+      link: "https://github.com/haneesh-25/React-Resume",
+      FE_ghlink: "https://github.com/haneesh-25/React-Resume",
+      BE_ghlink: "https://github.com/haneesh-25/React-Resume",
       image: "assets/images/moneymanager.png",
       description: {
-        para1: "The application help us to maintain our daily expenses.",
+        para1: "React Website hosted on VPS using nginx",
         para2:
-          "The application is made completely user-friendly and has an amazing user-experience",
+          "CI/CD with github and jenkins",
       },
     },
   ],
