@@ -48,6 +48,11 @@ function Home(props) {
             </motion.span>
           </motion.span>
         </p>
+        <img
+          src="assets/images/downarrow.svg"
+          alt="Scroll Down"
+          className="scroll-down"
+        />
       </motion.div>
     </motion.section>
   );
