@@ -147,7 +147,7 @@ export const DETAILS = {
   projects: [
     {
       id: "1",
-      title: "Money Manager",
+      title: "Personal Website",
       period: "Sep 2021 - Oct 2021",
       subtitle: "Expense Tracker Application",
       link: "https://sridharrajaram-moneymanager-client.netlify.app/",
